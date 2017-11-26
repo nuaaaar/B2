@@ -49,7 +49,7 @@
       </div>
 
       <div class="footerku">
-        Info : berlabuh menggunakan jasa API dari mainAPI.net <a href="https://mainapi.net" class="visit-api">Visit mainapi.net</a>
+        Info : berlabuh menggunakan jasa API dari mainAPI.net <a href="https://mainapi.net" class="visit-api" target="_blank">Visit mainapi.net</a>
       </div>
 
     </div>

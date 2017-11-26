@@ -272,6 +272,9 @@ body{
   background: transparent;
   transition: 0.3s;
 }
+.visit-api:focus{
+  text-decoration: none;
+}
 .unstyled::-webkit-inner-spin-button {
     display: none;
     -webkit-appearance: none;

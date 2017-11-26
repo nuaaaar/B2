@@ -23,7 +23,7 @@
 
       <div class="navigasi">
         <div class="container">
-          <img src="img/logo_putih.png" height="40px">
+          <img src="img/logo_putih.png" height="40px" draggable="false" style="-moz-user-select: none;">
           <div class="kanan">
             <span class="greeting">Hei, <span class="kapital"><?php echo $_SESSION['username']; ?></span>!</span>
             <a href="logout.php" class="tombol-logout">logout</a>

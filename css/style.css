@@ -1,0 +1,287 @@
+a{
+  color: rgb(241, 196, 15);
+}
+a:focus{
+  color: rgb(241, 196, 15);
+}
+a:hover{
+  color: rgb(241, 196, 15);
+}
+body{
+  background: #d8d4d4;
+}
+.overlayhitam{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(10, 10, 10, 0.4);
+  position: absolute;
+}
+
+.kotak-form{
+  width: 400px;
+  height: auto;
+  background: transparent;
+  padding: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  position: relative;
+}
+
+.inputku{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px 0px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.inputku::placeholder{
+  color: white;
+}
+
+.inputku:focus{
+  outline: none;
+}
+
+.tombol-submit{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  font-size: 20px;
+  margin: 15px 0px 0px 0px;
+  color: white;
+  font-weight: 900;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
+.tombol-submit:hover{
+  background: #fff;
+  color: #000;
+}
+
+.logo{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: rgb(44, 62, 80);
+}
+
+.headerlogin{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  color: #fff;
+  margin: 0px 0px;
+  display: inline-block;
+  padding: 0px 10px;
+  border-left: 1px solid white;
+  font-size: 20px;
+}
+
+.optionform{
+  display: block;
+  margin: 10px 0px;
+  text-align: center !important;
+  color: #fff;
+}
+
+.notif{
+  width: 100%;
+  padding: 15px;
+  border: 1px solid white;
+  margin: 20px 0px;
+  color: white;
+  cursor: pointer !important;
+}
+
+.notif .isinotif{
+  position: relative;
+  font-size: 17px;
+  color: #fff;
+}
+
+.headerku{
+  background: url("../img/bg1.jpg") center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  position: absolute;
+}
+
+.navigasi{
+  padding: 15px 0px;
+}
+
+.kanan{
+  float: right;
+  padding: 8px;
+}
+
+.greeting{
+  font-size: 15px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+.tombol-logout{
+  font-size: 15px;
+  padding: 5px 15px;
+  color: #fff;
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 50px;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.tombol-logout:hover{
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+}
+
+.kapital{
+  text-transform: capitalize;
+}
+
+.tengah{
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+}
+
+#typed{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 60px;
+  display: inline-block !important;
+}
+
+.ketikan{
+  font-size: 60px !important;
+  color: white !important;
+}
+
+.yelyel{
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  display: block !important;
+  color: #fff;
+  text-align: center;
+}
+
+.tengahnd{
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+}
+
+.inputheader{
+  width: 70%;
+  height: 60px;
+  margin: 5px 0px;
+  display: block;
+  border: 0px;
+  padding: 0px 15px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.inputku::placeholder{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.tombol-cari{
+  width: 70%;
+  height: 60px;
+  margin: 5px 0px;
+  display: block;
+  border: 1px solid white;
+  padding: 0px 15px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.tombol-cari:hover{
+  background: transparent;
+  color: #fff;
+}
+.data-box{
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  border: none;
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+  margin-top: 10px;
+}
+.small-img{
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.footerku{
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  background-color: #292727;
+  padding: 40px 0px;
+  text-align: center;
+  color: white !important;
+  font-size: 18px;
+  font-weight: 100;
+  top: 100%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.visit-api{
+  background: #fff;
+  color: #000 !important;
+  border-radius: 50px;
+  padding: 5px 20px;
+  margin-left: 15px;
+}
+.visit-api:hover{
+  text-decoration: none;
+}
+.unstyled::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+}
+.footer{
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+  font-size: 20px;
+  background: #292727;
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 100;
+  margin-top: 60px;
+  font-style: italic;
+}
